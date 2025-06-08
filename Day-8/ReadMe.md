@@ -48,7 +48,7 @@ masked_edges = cv2.bitwise_and(edges, mask)
 - It performs an AND operation between the mask and the edge-detected image.
 
 - Only the edges inside the white polygon area are kept; everything else is zeroed out (masked).
-![Alt text](Day-8/masking.png)
+![Alt text](masking.png)
 
 ---
 
