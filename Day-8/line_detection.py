@@ -53,4 +53,4 @@ def process_video(video_path):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    process_video("Day-8/test_video.mp4")  # Replace with your video file path
+    process_video("Day-8/test_video.mp4")  
