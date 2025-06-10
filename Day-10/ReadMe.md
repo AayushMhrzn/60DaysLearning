@@ -1,8 +1,6 @@
 # Day 10: Introduction to Convolutional Neural Networks (CNN)
 
-## What We Learned
-
-On Day 10 of the 60-Day Deep Learning Challenge, we explored the fundamentals of **Convolutional Neural Networks (CNNs)**, which are widely used for image classification, object detection, and other vision-related tasks.
+On Day 10 of the Challenge, we explored the fundamentals of **Convolutional Neural Networks (CNNs)**, which are widely used for image classification, object detection, and other vision-related tasks.
 
 ---
 
