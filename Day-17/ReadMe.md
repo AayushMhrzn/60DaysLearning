@@ -20,21 +20,22 @@ Multiclass classification is a type of classification task where the goal is to 
    - The predicted class is the one with the highest probability.
 
 ### Softmax Function:
-Given logits \( z \) for each class, the softmax function computes:
-\[
-\text{softmax}(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}}
-\]
-- Output is a probability distribution over all \( K \) classes.
+Given logits `z` for each class, the softmax function computes:
+
+```
+softmax(z_i) = exp(z_i) / sum(exp(z_j))   for all j
+```
+- Output is a probability distribution over all `K` classes.
 - Ensures all probabilities sum to 1.
 
 ### Loss Function: Cross Entropy
 The cross-entropy loss for multiclass classification is:
-\[
-\text{Loss} = -\sum_{i=1}^{m} \sum_{k=1}^{K} y_{i,k} \log(\hat{y}_{i,k})
-\]
+```
+Loss = - sum_over_i ( sum_over_k ( y_ik * log(yhat_ik) ) )
+```
 Where:
-- \( y_{i,k} = 1 \) if sample \( i \) belongs to class \( k \), else 0.
-- \( \hat{y}_{i,k} \) is the predicted probability of class \( k \).
+- `y_ik = 1` if sample `i` belongs to class `k`, else 0  
+- `yhat_ik` is the predicted probability of class `k` for sample `i`
 
 ---
 
