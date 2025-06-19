@@ -28,9 +28,7 @@ In decision trees, the **splitting criterion** is used to decide where to split 
 
 Gini impurity measures the probability of **misclassifying** a randomly chosen element if it was randomly labeled according to the distribution of labels in the subset.
 
-\[
-Gini(D) = 1 - \sum_{k=1}^{K} p_k^2
-\]
+`Gini(D) = 1 - ∑(p_k)^2`
 
 Where:
 - \( p_k \) is the proportion of class \( k \) in the dataset \( D \)
@@ -49,9 +47,7 @@ Gini = 1 - (0.5^2 + 0.3^2 + 0.2^2) = 1 - (0.25 + 0.09 + 0.04) = 0.62
 
 Entropy is based on **information theory**. It measures the expected amount of **information (surprise)** in a randomly drawn sample.
 
-\[
-Entropy(D) = - \sum_{k=1}^{K} p_k \log_2(p_k)
-\]
+`Entropy(D) = - ∑ p_k * log2(p_k)`
 
 Where:
 - \( p_k \) is the proportion of class \( k \) in the dataset \( D \)
