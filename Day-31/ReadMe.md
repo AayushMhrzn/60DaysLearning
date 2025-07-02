@@ -1,4 +1,4 @@
-# Day 30 – t-SNE from Scratch
+# Day 31 – t-SNE from Scratch
 
 **t-SNE (t-distributed Stochastic Neighbor Embedding)** is a powerful **non-linear dimensionality reduction technique** designed for the **visualization of high-dimensional data** in 2D or 3D. Unlike PCA (linear), t-SNE preserves the **local structure** of the data.
 
