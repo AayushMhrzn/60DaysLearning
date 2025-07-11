@@ -1,6 +1,5 @@
 # Introduction to Semantic Segmentation - Day 41
 
-What is Semantic Segmentation?
 Semantic Segmentation is an image analysis task in which we classify each pixel in the image into a class.
 
 Similar to what us humans do all the time by default, when are looking then whatever we are seeing if we think of that as an image then we know what class each pixel of the image belongs to.
