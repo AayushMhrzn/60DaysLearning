@@ -1,4 +1,4 @@
-**Day 46 - Dependency Parsing & Constituency Parsing - Day46**
+# Day 46 - Dependency Parsing & Constituency Parsing - Day46
 
 Learnt how to analyze sentence **structure and grammar** using two powerful parsing techniques in NLP:
 
