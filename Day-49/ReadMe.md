@@ -1,4 +1,4 @@
-**Day 49 - Streamlit Basics & Flower Prediction App**
+# Day 49 - Streamlit Basics & Flower Prediction App
 
 #### What is Streamlit?
 
